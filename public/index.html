@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weblinks Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weblinks Manager</h1>
+        <p class="subtitle">Simple B2 prototype project</p>
+
+        <section class="card">
+            <h2>Add or Edit Weblink</h2>
+            <p class="helper-text">Enter the details below and click save.</p>
+
+            <form id="weblinkForm">
+                <input type="hidden" id="weblinkId">
+
+                <label for="title">Title</label>
+                <input type="text" id="title" placeholder="Enter website title" required>
+
+                <label for="url">URL</label>
+                <input type="text" id="url" placeholder="Enter website URL" required>
+
+                <label for="rating">Rating</label>
+                <input type="number" id="rating" placeholder="Enter rating from 1 to 5" min="1" max="5" required>
+
+                <label for="category">Category</label>
+                <input type="text" id="category" placeholder="Enter category" required>
+
+                <button type="submit">Save Weblink</button>
+            </form>
+        </section>
+
+        <section class="card">
+            <h2>All Weblinks</h2>
+            <div id="message"></div>
+            <ul id="weblinkList"></ul>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

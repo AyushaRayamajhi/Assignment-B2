@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f3e7db, #d6c0b3, #c8b6d9);
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 3rem;
+    color: #4b2e2b;
+}
+
+.subtitle {
+    margin-top: 0;
+    margin-bottom: 24px;
+    color: #6d4c41;
+    font-size: 1.1rem;
+}
+
+.card {
+    background: #fffaf3;
+    border: 3px solid #8d6e63;
+    border-radius: 20px;
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+h2 {
+    margin-top: 0;
+    color: #5d4037;
+}
+
+.helper-text {
+    color: #7b5e57;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+form {
+    display: grid;
+    gap: 12px;
+}
+
+label {
+    font-weight: bold;
+    color: #5d4037;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    border: 1px solid #c7a17a;
+    border-radius: 14px;
+    background: #fffdf9;
+    color: #4b2e2b;
+}
+
+input:focus {
+    outline: none;
+    border-color: #8d6e63;
+    box-shadow: 0 0 0 3px rgba(141, 110, 99, 0.18);
+}
+
+button {
+    padding: 13px 18px;
+    font-size: 16px;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+form button {
+    background: #8d6e63;
+    color: white;
+    font-weight: bold;
+}
+
+form button:hover {
+    background: #6d4c41;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background: #fffdf9;
+    border-left: 6px solid #8d6e63;
+    border-radius: 16px;
+    padding: 16px;
+    margin-bottom: 14px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+.actions {
+    margin-top: 12px;
+}
+
+.actions button {
+    margin-right: 8px;
+    background: #b08968;
+    color: white;
+}
+
+.actions button:hover {
+    background: #8d6e63;
+}
+
+#message {
+    margin-bottom: 14px;
+    font-weight: bold;
+    color: #6d4c41;
+}

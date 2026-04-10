@@ -1,0 +1,26 @@
+{
+  "name": "assignment-b2",
+  "version": "1.0.0",
+  "description": "B2 prototype project - Weblinks Manager",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "apidoc": "^1.2.0",
+    "jest": "^30.2.0",
+    "supertest": "^7.1.4"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": []
+  
+}
