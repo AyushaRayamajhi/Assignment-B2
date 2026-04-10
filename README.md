@@ -47,8 +47,8 @@ apidoc/index.html
 
 ## UI Design (Figma)
 
-Figma Design Link:
-figma_design.png
+![Figma Design](figma_design.png)
+
 
 ## Features
 - CRUD operations (Create, Read, Update, Delete)
